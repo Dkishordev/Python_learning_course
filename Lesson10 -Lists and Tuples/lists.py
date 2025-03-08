@@ -29,3 +29,17 @@ mylist.sort()
 fruits = ["apple", "banana", "cherry"]
 fruits[1] = "orange"
 print(fruits)
+
+#2D lists
+fruits=  ["apple", "banana", "cherry"]
+vegetables=["beans","potatoes","spanish"]
+meats=["fish","chicken","buff"]
+groceries=[fruits,vegetables,meats]
+
+print(groceries)
+print(groceries[1])
+print(groceries[2][1])
+
+for collection in groceries:
+    for item in collection:
+        print(item)
